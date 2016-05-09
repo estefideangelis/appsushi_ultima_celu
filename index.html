@@ -1,0 +1,325 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>App Sushi</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="jquery.mobile-1.4.5.css">
+
+<link rel="stylesheet" href="appsushi.css">
+
+<script src="jquery-1.12.2.min.js"></script>
+<script src="jquery.mobile-1.4.5.min.js"></script>
+
+
+</head>
+
+<body>
+
+<div id="presentacion" data-role="page" data-theme="c">
+<center><a href="#inicio"><img src="images/1a.jpg" style="width:100%;"/></a></center>
+
+
+
+<a href="#" id="saludo" class="ui-btn ui-corner-all ui-btn-b ">FUNCION SALUDAR</a>
+
+<a href="#" id="btn_guardar" class="ui-btn ui-corner-all ui-btn-b ">Guardar dato</a>
+
+<a href="#" id="btn_ver" class="ui-btn ui-corner-all ui-btn-b ">Ver Datos</a>
+
+</div>
+
+<div id="inicio" data-role="page" data-theme="c">
+<div data-role="header" data-theme="c">
+
+
+<a href="#popupMenu" data-rel="popup" data-transition="slideup"class="ui-btn ui-shadow ui-corner-all ui-icon-bars ui-btn-icon-notext"></a>
+
+
+<div data-role="popup" id="popupMenu" data-theme="c">
+        <ul data-role="listview">
+<!--data-inset="true"-->
+
+           <li data-icon="false"><a href="#cuenta"><img src="images/5.png" class="ui-li-icon ui-corner-none">Mi cuenta</a></li>
+           
+          
+        </ul>
+</div>
+<img src="images/3.jpg" style="width:100%;"/>
+<img src="images/2.jpg" style="width:100%;"/>
+
+</div>
+
+<div class="ui-grid-a" data-role="content" data-theme="c">
+
+
+<a href="#delivery" class="ui-btn ui-corner-all ui-btn-b ">DELIVERY</a>
+<a href="#resto" class="ui-btn ui-corner-all ui-btn-b ">RESTÓ</a>
+<a href="#promos" class="ui-btn ui-corner-all ui-btn-b ">PROMOS</a>
+<a href="#zupuntos" class="ui-btn ui-corner-all ui-btn-b ">MIS ZU.PUNTOS</a>
+</div>
+
+<div data-role="footer" data-theme="c">
+<center><h2>Registrate y conocé los beneficios de tus ZU.PUNTOS</h2></center>
+</div>
+
+</div>
+
+
+<div id="delivery" data-role="page" data-theme="c">
+<div data-role="header" data-theme="c">
+
+
+<a href="#inicio" data-rel="back" class="ui-btn ui-shadow ui-corner-all ui-icon-back ui-btn-icon-notext"></a>
+
+
+
+
+<img src="images/3.jpg" style="width:100%;"/>
+
+</div>
+
+<div data-role="content" data-theme="c">
+
+<center><a href="#delivery"><img src="images/delivery.jpg" style="width:100%;"/></a></center>
+<ul data-role="listview">
+    <li><a href="#entradas" class="ui-li-icon  ui-btn-delivery ui-corner-all  "><img src="images/entradas.png" class="ui-li-icon ui-corner-none " style="padding-right:10px;">Entradas</a></li>
+    <li><a href="#sushi" class="ui-li-icon  ui-btn-delivery ui-corner-all  "><img src="images/sushi.png" class="ui-li-icon ui-corner-none " style="padding-right:10px;">Sushi</a></li>
+    <li><a href="#woks" class="ui-li-icon  ui-btn-delivery ui-corner-all  "><img src="images/wok.png" class="ui-li-icon ui-corner-none " style="padding-right:10px;">Woks</a></li>
+    <li><a href="#promos" class="ui-li-icon  ui-btn-delivery ui-corner-all  "><img src="images/combos.png" class="ui-li-icon ui-corner-none " style="padding-right:10px;">Combos</a></li>
+   
+</ul>
+
+
+
+
+
+
+
+
+
+
+</div>
+
+<div data-role="footer" data-theme="c">
+<center><h2>Registrate y conocé los beneficios de tus ZU.PUNTOS</h2></center>
+</div>
+
+
+</div>
+
+
+<div id="resto" data-role="page" data-theme="c">
+<div data-role="header" data-theme="c">
+
+<a href="#inicio" data-rel="back" class="ui-btn ui-shadow ui-corner-all ui-icon-back ui-btn-icon-notext"></a>
+
+
+
+
+<img src="images/3.jpg" style="width:100%;"/>
+</div>
+
+
+<div data-role="content" data-theme="c">
+
+<center><a href="#resto"><img src="images/resto.jpg" style="width:100%;"/></a></center>
+
+<!--<center><iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3287.337579571532!2d-58.47661798540694!3d-34.5196742804813!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bcb14dff37eb5f%3A0x5d86e47fafbde9ce!2sZusushi!5e0!3m2!1ses-419!2sar!4v1460962753493" width="230" height="200" frameborder="0" style="border:0 width:100%;" allowfullscreen></iframe></center>-->
+<center><img src="images/mapa.png" style="width:100%;"/></center>
+<a href="#" class="ui-btn ui-corner-all ui-btn-b ">RESERVAR AHORA</a>
+
+</div>
+
+<div data-role="footer" data-theme="c">
+<center><h2>Registrate y conocé los beneficios de tus ZU.PUNTOS</h2></center>
+</div>
+</div>
+
+<div id="sushi" data-role="page" data-theme="c">
+<div data-role="header" data-theme="c">
+
+<a href="#delivery" data-rel="back" class="ui-btn ui-shadow ui-corner-all ui-icon-back ui-btn-icon-notext"></a>
+
+<a href="#inicio" class="ui-btn ui-shadow ui-corner-all ui-icon-home ui-btn-icon-notext"></a>
+
+<img src="images/3.jpg " style="width:100%;"/>
+</div>
+
+
+<div data-role="content" data-theme="c">
+<center><img src="images/sushititulo.jpg" style="width:100%;"/></center>
+<center><img src="images/imagenb.jpg" style="width:100%;"/></center>
+<center><img src="images/imagenc.jpg" style="width:100%;"/></center>
+<center><img src="images/imagend.jpg" style="width:100%;"/></center>
+<center><img src="images/imagene.jpg" style="width:100%;"/></center>
+<center><img src="images/imagenf.jpg" style="width:100%;"/></center>
+
+</div>
+
+<div data-role="footer" data-theme="c">
+<center><h2>Registrate y conocé los beneficios de tus ZU.PUNTOS</h2></center>
+</div>
+</div>
+
+<div id="entradas" data-role="page" data-theme="c">
+<div data-role="header" data-theme="c">
+
+<a href="#inicio" data-rel="back" class="ui-btn ui-shadow ui-corner-all ui-icon-back ui-btn-icon-notext"></a>
+
+<a href="#inicio" class="ui-btn ui-shadow ui-corner-all ui-icon-home ui-btn-icon-notext"></a>
+
+<img src="images/3.jpg" style="width:100%;"/>
+</div>
+
+
+<div data-role="content" data-theme="c">
+<center><img src="images/entradastitulo.jpg" style="width:100%;"/></center>
+<center><img src="images/entrada1.jpg" style="width:100%;"/></center>
+<center><img src="images/entrada2.jpg" style="width:100%;"/></center>
+<center><img src="images/entrada3.jpg" style="width:100%;"/></center>
+<center><img src="images/entrada4.jpg" style="width:100%;"/></center>
+
+</div>
+
+<div data-role="footer" data-theme="c">
+<center><h2>Registrate y conocé los beneficios de tus ZU.PUNTOS</h2></center>
+</div>
+</div>
+
+<div id="woks" data-role="page" data-theme="c">
+<div data-role="header" data-theme="c">
+
+<a href="#inicio" data-rel="back" class="ui-btn ui-shadow ui-corner-all ui-icon-back ui-btn-icon-notext"></a>
+
+<a href="#inicio" class="ui-btn ui-shadow ui-corner-all ui-icon-home ui-btn-icon-notext"></a>
+
+<img src="images/3.jpg" style="width:100%;"/>
+</div>
+
+
+<div data-role="content" data-theme="c">
+<center><img src="images/wokstitulo.jpg" style="width:100%;"/></center>
+<center><img src="images/wok1.jpg" style="width:100%;"/></center>
+<center><img src="images/wok2.jpg" style="width:100%;"/></center>
+<center><img src="images/wok3.jpg" style="width:100%;"/></center>
+<center><img src="images/wok4.jpg" style="width:100%;"/></center>
+<center><img src="images/wok5.jpg" style="width:100%;"/></center>
+
+</div>
+
+<div data-role="footer" data-theme="c">
+<center><h2>Registrate y conocé los beneficios de tus ZU.PUNTOS</h2></center>
+</div>
+</div>
+
+<div id="cuenta" data-role="page" data-theme="c">
+<div data-role="header" data-theme="c">
+
+<a href="#inicio" data-rel="back" class="ui-btn ui-shadow ui-corner-all ui-icon-back ui-btn-icon-notext"></a>
+
+
+
+</div>
+<div data-role="content" data-theme="c">
+<center><img src="images/6.jpg" style="width:100%;"/></center>
+    <form>
+        <div style="padding:10px;">
+           <center><h1>INICIAR SESIÓN</h1></center>
+            <label for="un" class="ui-hidden-accessible">Usuario:</label>
+            <input type="text" name="user" id="un" value="" placeholder="username" data-theme="c">
+            <label for="pw" class="ui-hidden-accessible">Contraseña:</label>
+            <input type="password" name="pass" id="pw" value="" placeholder="password" data-theme="c">
+            <button type="submit" class="ui-btn ui-corner-all ui-shadow ui-btn-b ui-btn-icon-left ui-icon-check">ENTRAR</button>
+        </div>
+    </form>
+</div>
+
+<div data-role="footer" data-theme="c">
+<center><h2>Registrate y conocé los beneficios de tus ZU.PUNTOS</h2></center>
+</div>
+
+
+</div>
+
+<div id="promos" data-role="page" data-theme="c">
+<div data-role="header" data-theme="c">
+
+<a href="#inicio" data-rel="back" class="ui-btn ui-shadow ui-corner-all ui-icon-back ui-btn-icon-notext"></a>
+<a href="#inicio" class="ui-btn ui-shadow ui-corner-all ui-icon-home ui-btn-icon-notext"></a>
+
+
+<img src="images/3.jpg" style="width:100%;"/>
+</div>
+
+
+
+<div data-role="content" data-theme="c">
+
+<img src="images/combo1.jpg" style="width:100%;"/>
+<a href="#" class="ui-btn ui-corner-all ui-btn-b ">AGREGAR COMBO</a>
+
+<img src="images/combo2.jpg" style="width:100%;"/>
+<a href="#" class="ui-btn ui-corner-all ui-btn-b ">AGREGAR COMBO</a>
+</div>
+
+<div data-role="footer" data-theme="c">
+<center><h2>Registrate y conocé los beneficios de tus ZU.PUNTOS</h2></center>
+</div>
+
+</div>
+
+<div id="combos" data-role="page" data-theme="c">
+<div data-role="header" data-theme="c">
+
+<a href="#inicio" data-rel="back" class="ui-btn ui-shadow ui-corner-all ui-icon-back ui-btn-icon-notext"></a>
+
+<a href="#inicio" class="ui-btn ui-shadow ui-corner-all ui-icon-home ui-btn-icon-notext"></a>
+<img src="images/3.jpg" style="width:100%;"/>
+</div>
+
+
+
+<div data-role="content" data-theme="c">
+
+<img src="images/combo1.jpg" style="width:100%;"/>
+<a href="#" class="ui-btn ui-corner-all ui-btn-b ">AGREGAR COMBO</a>
+
+<img src="images/combo2.jpg" style="width:100%;"/>
+<a href="#" class="ui-btn ui-corner-all ui-btn-b ">AGREGAR COMBO</a>
+</div>
+
+<div data-role="footer" data-theme="c">
+<center><h2>Registrate y conocé los beneficios de tus ZU.PUNTOS</h2></center>
+</div>
+
+</div>
+
+<div id="zupuntos" data-role="page" data-theme="c">
+<div data-role="header" data-theme="c">
+
+<a href="#inicio" data-rel="back" class="ui-btn ui-shadow ui-corner-all ui-icon-back ui-btn-icon-notext"></a>
+
+<img src="images/3.jpg" style="width:100%;"/>
+</div>
+
+
+
+<div data-role="content" data-theme="c">
+<center><a href="#zupuntos"><img src="images/miszu.jpg" style="width:100%;"/></a></center>
+<h2>Ingresá el número de cliente para ver tus puntos:</h2>
+
+ <label for="un" class="ui-hidden-accessible">Número de cliente*:</label><input type="text" name="user" id="un" value="" placeholder="Número de cliente" data-theme="c">
+
+<img src="images/zupuntos.jpg" style="width:100%;"/>
+<a href="#" class="ui-btn ui-corner-all ui-btn-b ">CONSULTAR PUNTOS</a>
+
+<div data-role="footer" data-theme="c">
+<center><h2>Registrate y conocé los beneficios de tus ZU.PUNTOS</h2></center>
+</div>
+
+</div>
+
+<script src="app.js"></script>
+</body>
+</html>
